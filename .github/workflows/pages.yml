@@ -23,12 +23,12 @@ jobs:
         with:
           node-version: "20"
       - run: npm ci
-      - run: npm run build -w @service-lens/docs
+      - run: npm run build
         env:
           BASE_PATH: /service-lens
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: ./packages/docs/dist
+          path: ./dist
 
   deploy:
     environment:
