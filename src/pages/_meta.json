@@ -1,0 +1,9 @@
+{
+  "index": "主页",
+  "episodes": "正篇",
+  "extra": "番外",
+  "about": {
+    "title": "关于",
+    "type": "page"
+  }
+}
