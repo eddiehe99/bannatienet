@@ -38,7 +38,7 @@ const config = {
   head: (
     <>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta property="og:title" content="BannatieNet" />
+      {/* <meta property="og:title" content="BannatieNet" /> */}
       <meta
         property="og:description"
         content="播客《半拿铁 | 商业沉浮录》中出现的歇后语和俏皮话的【非官方】“数据集”。"
