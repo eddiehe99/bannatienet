@@ -1,3 +1,5 @@
+import { useRouter } from 'next/router'
+
 const config = {
   logo: <span>BannatieNet</span>,
   project: {
@@ -25,6 +27,14 @@ const config = {
     )
   },
   faviconGlyph: '☕',
+  useNextSeoProps() {
+    const { asPath } = useRouter()
+    if (asPath !== '/') {
+      return {
+        titleTemplate: '%s - BannatieNet'
+      }
+    }
+  },
   head: (
     <>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
