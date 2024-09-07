@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { useRouter } from 'next/router'
 
 const config = {
@@ -52,7 +53,10 @@ const config = {
         content="https://podlink.imgix.net/9a227780e55c4575eacf2492a0b46bb2/poster.jpeg"
       />
     </>
-  )
+  ),
+  sortPages: (pages) => {
+    return pages.sort((a, b) => b.localeCompare(a))
+  }
 }
 
 export default config
