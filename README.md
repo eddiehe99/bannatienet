@@ -4,8 +4,6 @@
 
 ## Deploy
 
-## Deploy
-
 It defaults to deploy to [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
 
 1. Fork [ZEISS/docs-template](https://github.com/ZEISS/docs-template)
