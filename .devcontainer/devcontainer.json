@@ -1,5 +1,4 @@
 {
-  "name": "zeiss/docs-template",
   "build": {
     "dockerfile": "Dockerfile",
     // Update 'VARIANT' to pick an Ubuntu version: jammy / ubuntu-22.04, focal / ubuntu-20.04, bionic /ubuntu-18.04
@@ -26,8 +25,8 @@
   },
   "portsAttributes": {
     "3000": {
-        "label": "Application",
-        "onAutoForward": "openPreview"
+      "label": "Application",
+      "onAutoForward": "openPreview"
     }
   }
 }
