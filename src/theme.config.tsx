@@ -2,7 +2,12 @@
 import { useRouter } from 'next/router'
 
 const config = {
-  logo: <span>BannatieNet</span>,
+  logo: (
+    <>
+      ☕
+      <span>BannatieNet</span>
+    </>
+  ),
   project: {
     link: 'https://github.com/eddiehe99/bannatienet'
   },
