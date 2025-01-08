@@ -13,7 +13,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  upload:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -27,8 +27,6 @@ jobs:
           node-version: "20"
       - run: npm ci
       - run: npm run build
-        env:
-          BASE_PATH: /
       - uses: zeiss/az-storage-upload@397d3aa2325ba5de57bd1ab647f2bdb754c07816
         with:
           path: ./out
