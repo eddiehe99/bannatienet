@@ -27,7 +27,7 @@ jobs:
           node-version: "20"
       - run: npm ci
       - run: npm run build
-      - uses: zeiss/az-storage-upload@20adfd19f4d9546c51a360fc478e8ea0ba966ccc
+      - uses: zeiss/az-storage-upload@fe24fb30e7fe29cbdb64aec5bdd9a5a246e6e365
         with:
           path: ./out
           container_name: $web
