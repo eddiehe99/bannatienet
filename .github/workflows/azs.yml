@@ -1,0 +1,34 @@
+name: Upload to Azure Storage
+
+on:
+    workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: azure/login@v2
+        with:
+          client-id: ${{ secrets.AZURE_CLIENT_ID }}
+          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - run: npm ci
+      - run: npm run build
+      - uses: zeiss/az-storage-upload@a25f8889fdd7864111528291badc210fd8c9a6c3
+        with:
+          path: ./out
+          container_name: $web
+          account_url: ${{ secrets.AZURE_STORAGE_ACCOUNT_URL }}
