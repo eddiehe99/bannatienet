@@ -59,9 +59,9 @@ const config = {
       />
     </>
   ),
-  sortPages: (pages) => {
-    return pages.sort((a, b) => b.localeCompare(a))
-  }
+  // sortPages: (pages) => {
+  //   return pages.sort((a, b) => b.localeCompare(a))
+  // }
 }
 
 export default config
