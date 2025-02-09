@@ -56,7 +56,7 @@ jobs:
       - run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
       - run: ${{ steps.detect-package-manager.outputs.runner }} run build
         env:
-          BASE_PATH: ./
+          BASE_PATH: 
           
       - uses: actions/upload-pages-artifact@v3
         with:
