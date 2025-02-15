@@ -1,7 +1,9 @@
 /* eslint-disable prettier/prettier */
 /* eslint-disable import/no-anonymous-default-export */
 export default {
+    'monkey-24': '🐒 24',
     'monkey-23': '🐒 23',
+    'monkey-22': '🐒 22',
     'monkey-21': '🐒 21',
     'monkey-19': '🐒 19',
     'monkey-18': '🐒 18',
