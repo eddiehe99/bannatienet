@@ -1,7 +1,7 @@
 name: Upload to Azure Storage
 
 on:
-    workflow_dispatch:
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -9,7 +9,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: "pages"
+  group: 'pages'
   cancel-in-progress: false
 
 jobs:
@@ -24,7 +24,7 @@ jobs:
           subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
       - uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: '20'
       - run: npm ci
       - run: npm run build
       - uses: zeiss/az-storage-upload@a25f8889fdd7864111528291badc210fd8c9a6c3

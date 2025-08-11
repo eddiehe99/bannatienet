@@ -6,25 +6,25 @@ module.exports = {
     {
       files: ['**/*.tsx'],
       rules: {
-        'react/prop-types': 'off'
-      }
-    }
+        'react/prop-types': 'off',
+      },
+    },
   ],
   settings: {
     react: {
-      version: 'detect' // Tells eslint-plugin-react to automatically detect the version of React to use
-    }
+      version: 'detect', // Tells eslint-plugin-react to automatically detect the version of React to use
+    },
   },
   globals: {
     Atomics: 'readonly',
-    SharedArrayBuffer: 'readonly'
+    SharedArrayBuffer: 'readonly',
   },
   parserOptions: {
     ecmaVersion: 2020, // Allows for the parsing of modern ECMAScript features
     sourceType: 'module', // Allows for the use of imports
     ecmaFeatures: {
-      jsx: true // Allows for the parsing of JSX
-    }
+      jsx: true, // Allows for the parsing of JSX
+    },
   },
-  rules: {}
-}
+  rules: {},
+};

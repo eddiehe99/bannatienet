@@ -119,6 +119,7 @@ fabric.properties
 /node_modules
 /.pnp
 .pnp.js
+_pagefind/
 
 # testing
 /coverage

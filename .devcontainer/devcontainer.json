@@ -12,15 +12,10 @@
   "features": {
     "ghcr.io/devcontainers/features/node:1": {}
   },
-  "forwardPorts": [
-    3000
-  ],
+  "forwardPorts": [3000],
   "customizations": {
     "vscode": {
-      "extensions": [
-        "GitHub.copilot",
-        "GitHub.vscode-github-actions"
-      ]
+      "extensions": ["GitHub.copilot", "GitHub.vscode-github-actions"]
     }
   },
   "portsAttributes": {
