@@ -4,6 +4,7 @@ export default {
   episodes: '正篇',
   'journey-to-the-west': '西游篇',
   'the-investiture-of-the-gods': '封神篇',
+  weekly: '周刊',
   extra: '番外',
   about: {
     title: '关于',
