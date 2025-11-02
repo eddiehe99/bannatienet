@@ -1,6 +1,7 @@
 /* eslint-disable prettier/prettier */
 /* eslint-disable import/no-anonymous-default-export */
 export default {
+    'yin-yang-16': '☯️ 16',
     'yin-yang-15': '☯️ 15',
     'yin-yang-12': '☯️ 12',
     'yin-yang-10': '☯️ 10',
