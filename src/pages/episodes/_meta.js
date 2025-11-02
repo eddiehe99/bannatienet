@@ -1,6 +1,7 @@
 /* eslint-disable prettier/prettier */
 /* eslint-disable import/no-anonymous-default-export */
 export default {
+    'number-174': 'No. 174',
     'number-168': 'No. 168',
     'number-166': 'No. 166',
     'number-165': 'No. 165',
