@@ -2,6 +2,10 @@
 /* eslint-disable import/no-anonymous-default-export */
 export default {
     'number-179': 'No. 179',
+    'number-177': 'No. 177',
+    'number-176': 'No. 176',
+    'number-175': 'No. 175',
+    'number-174': 'No. 174',
     'number-170': 'No. 170',
     'number-169': 'No. 169',
     'number-168': 'No. 168',
