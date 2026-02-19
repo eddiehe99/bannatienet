@@ -3,6 +3,8 @@ name: Pages
 on:
   push:
     branches: ["main"]
+
+  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 permissions:
@@ -46,13 +48,15 @@ jobs:
           fi
 
       - uses: pnpm/action-setup@v4
+        name: Install pnpm
         if: ${{ steps.detect-package-manager.outputs.manager == 'pnpm' }}
         with:
           version: 10
       
       - uses: actions/setup-node@v6
+        name: Setup Node.js
         with:
-          node-version: "20"
+          node-version: "24"
           cache: ${{ steps.detect-package-manager.outputs.manager }}
 
       - run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
