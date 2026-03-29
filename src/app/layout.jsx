@@ -20,7 +20,7 @@ export const metadata = {
         siteName: 'BannatieNet',
         images: [
             {
-                url: 'https://podlink.imgix.net/9a227780e55c4575eacf2492a0b46bb2/poster.jpeg',
+                url: 'https://fdfs.xmcdn.com/storages/ac27-audiofreehighqps/71/C8/GMCoOSIHcO5qAAE-OQHg-X-n.jpeg',
                 width: 1200,
                 height: 630
             }
