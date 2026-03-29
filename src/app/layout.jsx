@@ -20,9 +20,9 @@ export const metadata = {
         siteName: 'BannatieNet',
         images: [
             {
-                url: 'https://fdfs.xmcdn.com/storages/ac27-audiofreehighqps/71/C8/GMCoOSIHcO5qAAE-OQHg-X-n.jpeg',
-                width: 1200,
-                height: 630
+                url: 'https://fdfs.xmcdn.com/storages/ac27-audiofreehighqps/71/C8/GMCoOSIHcO5qAAE-OQHg-X-n.jpeg'
+                // width: 1200,
+                // height: 630
             }
         ],
         locale: 'zh_CN',
