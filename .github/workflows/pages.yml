@@ -51,12 +51,12 @@ jobs:
         name: Install pnpm
         if: ${{ steps.detect-package-manager.outputs.manager == 'pnpm' }}
         with:
-          version: 10
+          version: latest
       
       - uses: actions/setup-node@v6
         name: Setup Node.js
         with:
-          node-version: "24"
+          node-version: latest
           cache: ${{ steps.detect-package-manager.outputs.manager }}
 
       - run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
