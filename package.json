@@ -1,7 +1,7 @@
 {
-  "name": "docs-template",
+  "name": "bannatienet",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.2.1",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
