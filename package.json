@@ -2,6 +2,12 @@
   "name": "docs-template",
   "private": true,
   "version": "0.0.1",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "sharp",
+      "unrs-resolver"
+    ]
+  },
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
