@@ -1,3 +1,5 @@
 allowBuilds:
   sharp: true
   unrs-resolver: true
+patchedDependencies:
+  nextra-theme-docs@4.5.1: patches/nextra-theme-docs@4.5.1.patch

@@ -44,6 +44,8 @@ const navbar = (
 const footer = <Footer>MIT {new Date().getFullYear()} © Nextra.</Footer>
 
 export default async function RootLayout({ children }) {
+    const pageMap = await getPageMap()
+
     return (
         <html
             // Not required, but good for SEO
@@ -61,7 +63,7 @@ export default async function RootLayout({ children }) {
             <body>
                 <Layout
                     navbar={navbar}
-                    pageMap={await getPageMap()}
+                    pageMap={pageMap}
                     sidebar={{
                         defaultMenuCollapseLevel: 1
                     }}
