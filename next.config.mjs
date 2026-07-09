@@ -12,6 +12,7 @@ const withNextra = nextra({
 export default withNextra({
   reactStrictMode: true,
   output: 'export',
+  trailingSlash: true,
   basePath: process.env.BASE_PATH ?? '',
   images: {
     unoptimized: true
