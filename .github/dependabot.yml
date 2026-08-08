@@ -3,8 +3,18 @@ updates:
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
-      interval: "monthly"
+      interval: "weekly"
+    target-branch: "main"
+    # allow:
+    #   - update-types:
+    #       - "version-update:semver-patch"
+    #       - "version-update:semver-minor"
+
+  # Enable version updates for GitHub Actions
   - package-ecosystem: "github-actions"
+    # Workflow files stored in the default location of `.github/workflows`
+    # You don't need to specify `/.github/workflows` for `directory`. You can use `directory: "/"`.
     directory: "/"
     schedule:
-      interval: "monthly"
+      interval: "weekly"
+    target-branch: "main"
