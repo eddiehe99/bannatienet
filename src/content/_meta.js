@@ -6,6 +6,7 @@ export default {
   'the-investiture-of-the-gods': '封神篇',
   weekly: '周刊',
   'zhong-kui': '钟馗篇',
+  'the-plum-in-the-golden-vase': '金瓶梅·绿色版',
   extra: '番外',
   about: {
     title: '关于',
