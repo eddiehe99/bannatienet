@@ -10,14 +10,14 @@
     "lint": "echo 'No linter configured'"
   },
   "dependencies": {
-    "next": "^16.3.6",
+    "next": "^16.3.8",
     "nextra": "^4.5.1",
     "nextra-theme-docs": "^4.5.1",
     "react": "^19.3.0",
     "react-dom": "^19.3.0"
   },
   "devDependencies": {
-    "@types/node": "26.6.3",
+    "@types/node": "26.6.4",
     "pagefind": "^1.4.0"
   }
 }
