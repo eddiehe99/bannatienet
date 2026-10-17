@@ -1,6 +1,9 @@
 /* eslint-disable prettier/prettier */
 /* eslint-disable import/no-anonymous-default-export */
 export default {
+    'chin-ping-mei-s2-e8': '🪭 金瓶梅·绿色版 S2E8. 谁动了我的金块？',
+    'chin-ping-mei-s2-e7': '🪭 金瓶梅·绿色版 S2E7. 西门庆的生态化反与增长飞轮',
+    'chin-ping-mei-s2-e6': '🪭 金瓶梅·绿色版 S2E6. 状元路过咱清河，也得过来喝杯酒',
     'chin-ping-mei-s2-e5': '🪭 金瓶梅·绿色版 S2E5. 西门庆的新欢居然是...... 男的？',
     'chin-ping-mei-s2-e4': '🪭 金瓶梅·绿色版 S2E4. 西门庆上岸啦！',
     'chin-ping-mei-s2-e3': '🪭 金瓶梅·绿色版 S2E3. 一名家仆的「裁员」与另一名家仆的「优化」',
